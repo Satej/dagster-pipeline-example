@@ -1,15 +1,13 @@
 # dagster-pipeline-example
 
-```
-bash
+```bash
 pip install 'dagster~=1.7'
 cd dagster_university
 cp .env.example .env
 pip install -e ".[dev]"
 ```
 
-```
-bash
+```bash
 dagster dev
 ```
 
